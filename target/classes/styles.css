@@ -1,0 +1,34 @@
+/* style.css */
+
+/* Styling for the TableView */
+.table-view {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #404040;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #f8f8f8;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #e8e8e8;
+}
+
+/* Styling for the Search Button */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
